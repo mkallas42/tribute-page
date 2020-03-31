@@ -1,0 +1,17 @@
+body {
+    background-color: whitesmoke;
+}
+
+ol {
+    counter-reset: inherit;
+    padding-left: 5px;
+}
+
+li {
+    display: block;
+}
+
+li:before {
+    content: counter(inherit, ".") " ";
+    counter-increment: inherit;
+}
