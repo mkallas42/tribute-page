@@ -1,3 +1,40 @@
 body {
-    background-color: whitesmoke;
+    font-family: Roboto Mono, monospace;
+    color: rgb(65, 35, 35);
 }
+
+#main {
+    background-color: whitesmoke;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    border: 1px solid rgb(65, 35, 35);
+    border-radius: 4px;
+    justify-content: center;
+    display: block;
+}
+
+#title {
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #7A7A7A;
+}
+
+#img-div {
+
+}
+
+#image {
+
+}
+
+#tribute-info {
+
+}
+
+#tribute-link {
+
+}
+
+p {
+text-align: justify;}
