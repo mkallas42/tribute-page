@@ -29,7 +29,13 @@ body {
 }
 
 #tribute-info {
+    transition: transform .3s;
+}
 
+li:hover {
+    transform: scale(1.02);
+    font-weight: bold;
+    text-shadow: 1px 1px 0 grey;
 }
 
 #tribute-link {
