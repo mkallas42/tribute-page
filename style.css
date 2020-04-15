@@ -1,5 +1,6 @@
 body {
     font-family: Roboto Mono, monospace;
+    line-height: 1.5;
     color: rgb(65, 35, 35);
 }
 
@@ -21,11 +22,23 @@ body {
 }
 
 #img-div {
-
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+    height: 750px;
 }
 
 #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
 
+#img-caption {
+    text-align: center;
+    text-shadow: 1px 1px 0 gray;
 }
 
 #tribute-info {
